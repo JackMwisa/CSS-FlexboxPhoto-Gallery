@@ -32,8 +32,13 @@
     object-fit: cover; /*allow the image to fit the whole container*/
     margin-top: 8px;
     padding: 0 4px;
-    border-radius: 10px
+    border-radius: 10px;
+    transition: all 1.0s;
   }
+
+  img:hover {
+	transform: scale(1.3) rotate(-15deg);
+}
 
   @media (max-width: 800px) {
     #gallery img {
