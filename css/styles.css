@@ -14,7 +14,13 @@
     background: #E0DDDD;
   }
   
-  
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+  }
   
   #gallery img {
     width: 25%;
