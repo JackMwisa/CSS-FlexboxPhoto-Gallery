@@ -35,3 +35,15 @@
     border-radius: 10px
   }
 
+  @media (max-width: 800px) {
+    #gallery img {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 600px){
+    #gallery img {
+      width: 100%;
+    }
+  }
+
