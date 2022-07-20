@@ -8,21 +8,30 @@
     background: #EBE7E7;
   }
   
+  /*header div*/
   .header {
     text-align: center;
     padding: 32px;
     background: #E0DDDD;
   }
   
+  /*gallery div*/
   #gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    padding: 0 4px;
   }
   
+  /* images */
   #gallery img {
     width: 25%;
     height: 300px;
+    object-fit: cover; /*allow the image to fit the whole container*/
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px
   }
+
