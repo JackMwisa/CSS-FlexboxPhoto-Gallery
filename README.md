@@ -4,7 +4,7 @@
 > Using Flexbox to build a responsive photo gallery webpage.
 
 
-![Screenshot](./desktop.png)
+![Screenshot](./Screenshot.png)
 
 
 ## Built With
